@@ -11,16 +11,25 @@ Perform ligand docking analyses to predict protein-ligand interactions and bindi
 ├── README.md
 ├── scripts/
 │   └── open_AF3_files_change_name_in_pymol2.py
+    ├── Measure_Distance_Angle2.py
 └── data/
     ├── protein.pdb
     └── ligand.mol2
 
 
 ## 🚩 Overview of Scripts
-open_AF3_files_change_name_in_pymol2.py
+📗open_AF3_files_change_name_in_pymol2.py
 
 Use Pymol to automate loading and renaming batch of cif alphafold Structure files (only for multiple seed)
 
 Usage:
 change the name of location of structure files 
 open pymol - run open_AF3_files_change_name_in_pymol2.py 
+
+📗Measure_Distance_Angle2.py
+
+Measure the angle and distance of three atoms in object. Iterate this across multiple actions. 
+
+Usage:
+run Measure_Distance_Angle2.py     # loads the function
+measure_distance_and_angle()       # performs the measurements
